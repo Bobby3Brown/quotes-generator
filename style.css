@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 110.8deg,  rgba(5,4,47,1) -1.8%, rgba(59,2,136,1) 114.5% );
+    height: 100vh;
+}
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h2{
+    font-weight: 900;
+    color: #d6d6d6;
+}
+
+.main-container{
+    width: 100%;
+    height: 300px;
+    padding: 50px 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 25px 31px rgb(59, 58, 58);
+}
+.text-area{
+    text-align: center;
+    font-size: 28px;
+    color: #262626;
+    line-height: 1.5;
+}
+.main-container .writer{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 22px;
+
+}
+.main-container .button-area{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+    padding: 10px 0 ;
+    
+}
+.button-area .btn button{
+    background-color: #262626;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 12px 15px ;
+    
+    
+}
+.button-area .btn button:active{
+    background-color: deepskyblue;
+}
+
+
+/* mobile screen */
+@media (min-width: 0px)and (max-width: 767px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient( 110.8deg,  rgb(156, 32, 150) -1.8%, rgba(59,2,136,1) 114.5% );
+        height: 100vh;
+    }
+    .text-area{
+        text-align: center;
+        font-size: 40px;
+        color: #262626;
+        line-height: 1;
+    }
+    .main-container .writer{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: rgb(214, 47, 25);
+        text-align: center;
+        margin-top: 5px;
+        font-size: 20px;
+    
+    }
+    .main-container{
+        width: 100%;
+        height: 380px;
+        padding: 50px 40px;
+        background-color: #e0dcdc;
+        border-radius: 15px;
+        box-shadow: 0 25px 31px rgb(48, 47, 47);
+    }
+    .button-area .btn button{
+        background-color: #5e1a49;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        padding: 12px 19px ;
+        
+        
+    }
+
+    
+}
+
+
+/* tablet screeen */
+@media (min-width: 768px)and (max-width: 1023px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient( 110.8deg,  rgb(107, 29, 101) -1.8%, rgb(9, 40, 77) 114.5% );
+        height: 100vh;
+    }
+    .text-area{
+        text-align: center;
+        font-size: 36px;
+        color: #262626;
+        line-height: 1.5;
+    }
+    .main-container .writer{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: rgb(214, 47, 25);
+        text-align: center;
+        margin-top: 5px;
+        font-size: 29px;
+    
+    }
+    .main-container{
+        width: 100%;
+        height: 370px;
+        padding: 50px 40px;
+        background-color: #e0dcdc;
+        border-radius: 15px;
+        box-shadow: 0 25px 31px rgb(48, 47, 47);
+    }
+    .button-area .btn button{
+        background-color: #8f1169;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 30px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        padding: 12px 19px ;
+        
+        
+    }
+    .header h2{
+        font-weight: 900px;
+        font-size: 40px;
+        color: #f8f8f8;
+        letter-spacing: 2px;
+    }
+    
+
+}
